@@ -14,11 +14,11 @@ class NumberOfStepsToReduceANumberToZeroTest {
 
     private static Stream<Arguments> testCases(){
         return Stream.of(
-//            org.junit.jupiter.params.provider.Arguments.of(0, 0),
-//            org.junit.jupiter.params.provider.Arguments.of(1, 1),
-//            org.junit.jupiter.params.provider.Arguments.of(2, 2),
-//            org.junit.jupiter.params.provider.Arguments.of(3, 3),
-//            org.junit.jupiter.params.provider.Arguments.of(4, 3),
+            org.junit.jupiter.params.provider.Arguments.of(0, 0),
+            org.junit.jupiter.params.provider.Arguments.of(1, 1),
+            org.junit.jupiter.params.provider.Arguments.of(2, 2),
+            org.junit.jupiter.params.provider.Arguments.of(3, 3),
+            org.junit.jupiter.params.provider.Arguments.of(4, 3),
             org.junit.jupiter.params.provider.Arguments.of(5, 4),
             org.junit.jupiter.params.provider.Arguments.of(6, 4),
             org.junit.jupiter.params.provider.Arguments.of(14, 6)
