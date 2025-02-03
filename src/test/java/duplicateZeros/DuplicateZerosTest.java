@@ -15,7 +15,7 @@ class DuplicateZerosTest {
 
     private static Stream<Arguments> testCases () {
         return Stream.of(
-//            org.junit.jupiter.params.provider.Arguments.of(new int[]{1}, new int[]{1}),
+            org.junit.jupiter.params.provider.Arguments.of(new int[]{1}, new int[]{1}),
             org.junit.jupiter.params.provider.Arguments.of(new int[]{1,0,2,3,0,4,5,0}, new int[]{1,0,0,2,3,0,0,4}),
             org.junit.jupiter.params.provider.Arguments.of(new int[]{1,0,2}, new int[]{1,0,0}),
             org.junit.jupiter.params.provider.Arguments.of(new int[]{0,0,0}, new int[]{0,0,0})
